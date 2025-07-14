@@ -1,8 +1,10 @@
 const materias = {
-  "Área de Formación Básica": [
+  "Área de Formación Básica: general": [
     ["Inglés I", 6, 6], ["Inglés II", 6, 6], ["Computación Básica", 6, 6],
     ["Habilidades del pensamiento crítico y creativo", 6, 4],
-    ["Taller de lectura y redacción a través del mundo contemporáneo", 6, 4],
+    ["Taller de lectura y redacción a través del mundo contemporáneo", 6, 4]
+  ],
+   "Área de Formación Básica: iniciacion a la diciplina": [
     ["Física", 4, 2], ["Estadística Descriptiva", 5, 3],
     ["Biología Celular", 4, 2], ["Fisicoquímica", 4, 2],
     ["Química Inorgánica", 6, 6], ["Química Orgánica", 9, 6],
