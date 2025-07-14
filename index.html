@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Malla Curricular - Química Clínica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Curricular - Química Clínica</h1>
+  <p>Total de créditos seleccionados: <span id="totalCreditos">0</span></p>
+
+  <div class="area" id="basica">
+    <h2>Área de Formación Básica</h2>
+    <div class="materia amarillo" onclick="mostrarInfo('Inglés I', 6, 6)">Inglés I</div>
+    <div class="materia amarillo" onclick="mostrarInfo('Física', 4, 2)">Física</div>
+    <div class="materia amarillo" onclick="mostrarInfo('Habilidades del pensamiento', 6, 4)">Pensamiento Crítico</div>
+    <div class="materia amarillo" onclick="mostrarInfo('Taller de Lectura', 6, 4)">Taller de Lectura</div>
+    <!-- Agrega más materias aquí -->
+  </div>
+
+  <div class="area" id="disciplinar">
+    <h2>Área de Formación Disciplinar</h2>
+    <div class="materia verde" onclick="mostrarInfo('Bioquímica Clínica', 10, 7)">Bioquímica Clínica</div>
+    <div class="materia verde" onclick="mostrarInfo('Hematología Roja', 8, 6)">Hematología Roja</div>
+    <div class="materia verde" onclick="mostrarInfo('Parasitología General', 8, 5)">Parasitología General</div>
+    <!-- Agrega más materias aquí -->
+  </div>
+
+  <div class="area" id="terminal">
+    <h2>Área de Formación Terminal</h2>
+    <div class="materia azul" onclick="mostrarInfo('Servicio Social', 12, 0)">Servicio Social</div>
+    <div class="materia azul" onclick="mostrarInfo('Experiencia Recepcional', 12, 0)">Experiencia Recepcional</div>
+  </div>
+
+  <div class="area" id="electiva">
+    <h2>Área de Formación Electiva</h2>
+    <div class="materia morado" onclick="mostrarInfo('Psicología Social', 4, 3)">Psicología Social</div>
+    <div class="materia morado" onclick="mostrarInfo('Virología', 4, 2)">Virología</div>
+    <!-- Agrega más materias aquí -->
+  </div>
+
+  <div class="info-box" id="infoBox">
+    <p>Haz clic en una materia para ver su información.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
