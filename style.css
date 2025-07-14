@@ -10,27 +10,47 @@ h1 {
 }
 
 .area {
-  margin: 30px auto;
-  padding: 15px;
+  margin: 20px auto;
+  padding: 10px;
   border: 2px solid #ccc;
   border-radius: 8px;
   width: 90%;
+  background: #fff;
 }
 
 h2 {
   color: #34495e;
 }
 
+.subarea {
+  margin-top: 15px;
+}
+
 .materia {
   display: inline-block;
-  padding: 10px 15px;
-  margin: 10px;
+  padding: 10px 12px;
+  margin: 8px;
   border-radius: 6px;
   cursor: pointer;
   color: white;
   font-weight: bold;
   min-width: 180px;
   text-align: center;
+  opacity: 0.4;
+  pointer-events: none;
+  border: 2px solid transparent;
+}
+
+.materia.activa {
+  opacity: 1;
+  pointer-events: auto;
+  border-color: #fff;
+}
+
+.materia.completada {
+  background-color: #2ecc71 !important;
+  text-decoration: line-through;
+  border-color: #27ae60;
 }
 
 .amarillo { background-color: #f1c40f; }
@@ -48,4 +68,3 @@ h2 {
   margin-right: auto;
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
-
